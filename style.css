@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER NAV */
+.header__logo img{
+    width: 100px;
+    height: auto;
+    transform: rotate(190deg);
+    margin-top: 7px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/astronomy.jpg);
+    background-position: center;
+    opacity: 0.3;
+}
+
+.header__nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.header__nav li {
+    margin-right: 10px;
+}
+
+
+/* MAIN */
+
+/* FIRST SECTION */
+.section1{
+    height: 800px; 
+    background-image: url(images/nebula.mp4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.section1 p{
+    width: 500px;
+    font-size: 17px;
+}
+
+/* SECOND SECTION */
+.section2{
+    height: 800px; 
+    background-image: url(images/bluenebula.mp4);
+    opacity: 0.8;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.section2__title--color{
+    color: #113f67;
+} 
+
+.section2 p{
+    width: 500px;
+    font-size: 17px;
+}
+
+/* TROISEME SECTION */
+.section3{
+    height: 800px; 
+    background-image: url(images/orangenebula.mp4);
+    opacity: 1;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section3__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.section3__title--color{
+    color: #ffa64d;
+} 
+
+.section3 p{
+    width: 500px;
+    font-size: 17px;
+}
+
+.section3 p:hover{
+    color: #d9d9d9;
+}
+
+/* QUATRIEME SECTION */
+.section4{
+    height: 800px; 
+    background-image: url(images/butterflynebula.mp4);
+    background-position: center;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.section4__title--color{
+    color: #ffa64d;
+} 
+
+.section4 p{
+    width: 500px;
+    font-size: 17px;
+}
+
+
+
+
