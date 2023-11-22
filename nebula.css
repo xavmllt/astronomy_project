@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background: url(images/orangenebula.mp4);
+}
+
+.orangeNebula{
+    height: 800px; 
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orangeNebula__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.orangeNebula__title--color{
+    color: #ffa64d;
+    animation: apparitionTexte 3s ease-in-out forwards;
+}
+@keyframes apparitionTexte{
+    from{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.orangeNebula p{
+    width: 500px;
+    font-size: 23px;
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+    color: rgb(175, 151, 151);
+}
+
+.orangeNebula p:hover{
+    color: #ffffff;
+}
+
+.nebula{
+    height: 800px;
+    background: url(images/nebule.jpg);
+}

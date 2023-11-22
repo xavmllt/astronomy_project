@@ -3,63 +3,70 @@
     padding: 0;
 }
 
-/* HEADER NAV */
-.header__logo img{
-    width: 100px;
-    height: auto;
-    transform: rotate(190deg);
-    margin-top: 7px;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(images/astronomy.jpg);
-    background-position: center;
-    opacity: 0.3;
-}
-
-.header__nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.header__nav li {
-    margin-right: 10px;
-}
-
-
-/* MAIN */
-
-/* FIRST SECTION */
-.section1{
-    height: 800px; 
+section{
     background-image: url(images/nebula.mp4);
+}
+
+.accueil{
+    height: 800px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.section1__title{
+.accueil__title{
     color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Playfair Display', serif;
     font-size: 120px;
     margin-left: 10px;
+    animation: apparitionTexte 3s ease-in-out forwards;
+}
+@keyframes apparitionTexte{
+    from{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
 
-.section1 p{
+.accueil__child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil__child p{
     width: 500px;
-    font-size: 17px;
+    font-size: 14px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.accueil__child p:hover{
+    color: #ffffff;
+}
+.accueil__child--button{
+    margin-top: 40px;
+}
+
+.accueil__child--button button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #113f67;
+    border: 1px solid #0c2943;
+    font-weight: 800;
+}
+.accueil__child--button button:hover{
+    background-color: #d966ff;
 }
 
 /* SECOND SECTION */
 .section2{
     height: 800px; 
     background-image: url(images/bluenebula.mp4);
-    opacity: 0.8;
     background-position: center;
     display: flex;
     justify-content: space-around;
@@ -82,6 +89,7 @@
     width: 500px;
     font-size: 17px;
 }
+
 
 /* TROISEME SECTION */
 .section3{
@@ -115,15 +123,22 @@
     color: #d9d9d9;
 }
 
+
 /* QUATRIEME SECTION */
 .section4{
     height: 800px; 
     background-image: url(images/butterflynebula.mp4);
     background-position: center;
-    opacity: 0.7;
+    zoom: 0.3;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.section4 p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    columns: 2;
 }
 
 .section4__title{
@@ -143,6 +158,38 @@
     font-size: 17px;
 }
 
+
+/* CINQUIEME SECTION */
+.section5{
+    height: 800px; 
+    background-image: url(images/universenebula.mp4);
+    zoom: 0.6;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section5__title{
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    margin-left: 10px;
+}
+
+.section5__title--color{
+    color: #ffa64d;
+} 
+
+.section5 p{
+    width: 500px;
+    font-size: 17px;
+}
+
+.section5 p:hover{
+    color: #d9d9d9;
+}
 
 
 
