@@ -5,6 +5,13 @@
 
 section{
     background-image: url(images/nebula.mp4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
 .accueil{
@@ -61,134 +68,7 @@ section{
 }
 .accueil__child--button button:hover{
     background-color: #d966ff;
-}
-
-/* SECOND SECTION */
-.section2{
-    height: 800px; 
-    background-image: url(images/bluenebula.mp4);
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.section2__title{
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Playfair Display', serif;
-    font-size: 120px;
-    margin-left: 10px;
-}
-
-.section2__title--color{
-    color: #113f67;
-} 
-
-.section2 p{
-    width: 500px;
-    font-size: 17px;
-}
-
-
-/* TROISEME SECTION */
-.section3{
-    height: 800px; 
-    background-image: url(images/orangenebula.mp4);
-    opacity: 1;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.section3__title{
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Playfair Display', serif;
-    font-size: 120px;
-    margin-left: 10px;
-}
-
-.section3__title--color{
-    color: #ffa64d;
-} 
-
-.section3 p{
-    width: 500px;
-    font-size: 17px;
-}
-
-.section3 p:hover{
-    color: #d9d9d9;
-}
-
-
-/* QUATRIEME SECTION */
-.section4{
-    height: 800px; 
-    background-image: url(images/butterflynebula.mp4);
-    background-position: center;
-    zoom: 0.3;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.section4 p{
-    width: 100%;
-    height: 100%;
-    color: white;
-    columns: 2;
-}
-
-.section4__title{
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Playfair Display', serif;
-    font-size: 120px;
-    margin-left: 10px;
-}
-
-.section4__title--color{
-    color: #ffa64d;
-} 
-
-.section4 p{
-    width: 500px;
-    font-size: 17px;
-}
-
-
-/* CINQUIEME SECTION */
-.section5{
-    height: 800px; 
-    background-image: url(images/universenebula.mp4);
-    zoom: 0.6;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.section5__title{
-    color: #ffffff;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Playfair Display', serif;
-    font-size: 120px;
-    margin-left: 10px;
-}
-
-.section5__title--color{
-    color: #ffa64d;
-} 
-
-.section5 p{
-    width: 500px;
-    font-size: 17px;
-}
-
-.section5 p:hover{
-    color: #d9d9d9;
+    cursor: pointer;
 }
 
 

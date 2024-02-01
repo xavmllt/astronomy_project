@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-image: url(images/butterflynebula.mp4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    background-position: center;
+}
+
+.butterflyNebula{
+    height: 800px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.butterflyNebula__title{
+    color: #ffffff;
+    font-size: 120px;
+    margin-left: 10px;
+}
+.butterflyNebula__title--color{
+    color: #d7a4d5;
+    animation: apparitionTexte 3s ease-in-out forwards;
+    
+}
+@keyframes apparitionTexte{
+    from{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.butterflyNebula__child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butterflyNebula__child p{
+    width: 500px;
+    font-size: 15px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:hover{
+    color: #ffffff;
+}
+.butterflyNebula__child--button{
+    margin-top: 40px;
+}
+
+.butterflyNebula__child--button button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #113f67;
+    border: 1px solid #0c2943;
+    font-weight: 800;
+    margin: 20px;
+}
+.butterflyNebula__child--button button:hover{
+    background-color: #d966ff;
+    cursor: pointer;
+}

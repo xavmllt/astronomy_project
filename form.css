@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background: url(images/bluenebula.mp4);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+}
+
+legend{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.name input{
+    height: 30px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid salmon;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+}
+
+.email input{
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;
+    background-color: transparent;
+}

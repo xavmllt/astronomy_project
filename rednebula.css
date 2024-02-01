@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/rednebula.mp4);
+    background-size: cover;
+    background-position: center;
+}
+
+.redNebula{
+    height: 800px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redNebula__title{
+    color: #ffffff;
+    font-size: 120px;
+    margin-left: 10px;
+}
+.redNebula__title--color{
+    color: #990000;
+    animation: apparitionTexte 3s ease-in-out forwards;
+    
+}
+@keyframes apparitionTexte{
+    from{
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.redNebula__child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redNebula__child p{
+    width: 500px;
+    font-size: 17px;
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:hover{
+    color: #ffffff;
+}
+.redNebula__child--button{
+    margin-top: 40px;
+}
+
+.redNebula__child--button button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #851717;
+    border: 1px solid #813a16;
+    font-weight: 800;
+    margin: 20px;
+}
+.redNebula__child--button button:hover{
+    background-color: rgb(201, 63, 63);
+    cursor: pointer;
+}
